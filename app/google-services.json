@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "849687563876",
+    "project_id": "trabajobdd-ebf75",
+    "storage_bucket": "trabajobdd-ebf75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849687563876:android:46ade15f3e3fcb7e7fd971",
+        "android_client_info": {
+          "package_name": "cl.ipgv.trabajobdd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtuYj9V-RWiXWDfIy1H1HBNxuR6NP0dS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

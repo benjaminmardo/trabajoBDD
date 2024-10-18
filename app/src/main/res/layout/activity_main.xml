@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Encabezado -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos del Cliente y Compra"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Nombre del cliente -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Cliente"
+        android:textSize="18sp"
+        android:textColor="#FF5722" />
+    <EditText
+        android:id="@+id/eTNombreCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#BDBDBD"
+        android:padding="10dp"
+        android:inputType="textPersonName" />
+
+    <!-- Email del cliente -->
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email del Cliente"
+        android:textSize="18sp"
+        android:textColor="#FF5722" />
+    <EditText
+        android:id="@+id/eTEmailCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#BDBDBD"
+        android:padding="10dp"
+        android:inputType="textEmailAddress" />
+
+    <!-- Teléfono del cliente -->
+    <TextView
+        android:id="@+id/textViewTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teléfono del Cliente"
+        android:textSize="18sp"
+        android:textColor="#FF5722" />
+    <EditText
+        android:id="@+id/eTTelefonoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#BDBDBD"
+        android:padding="10dp"
+        android:inputType="phone" />
+
+    <!-- Nombre del producto -->
+    <TextView
+        android:id="@+id/textViewProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Producto Comprado"
+        android:textSize="18sp"
+        android:textColor="#FF5722" />
+    <EditText
+        android:id="@+id/eTNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#BDBDBD"
+        android:padding="10dp"
+        android:inputType="textPersonName" />
+
+    <!-- Botón para guardar los datos -->
+    <Button
+        android:id="@+id/bTGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Datos"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <!-- Botón para eliminar los datos -->
+    <Button
+        android:id="@+id/btEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Datos"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <!-- Listado de clientes y productos -->
+    <TextView
+        android:id="@+id/textViewListado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listado de Clientes y Compras"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="10dp" />
+
+    <ListView
+        android:id="@+id/lvListado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>
